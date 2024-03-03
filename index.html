@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador de Código</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="imagenesHeader">
+            <img src="imagenes/Header Alura.png" class="logoAlura" alt="logo de Alura">
+            <img src="imagenes/Header Oracle.jpg" class="logoOracle" alt="logo de Oracle">
+        </div>                            
+    </header>
+
+    <h1>Encriptador de Código Challenge.</h1>  
+    <main>
+        
+        <img src="imagenes/Logo Alura..png" class="Logo" alt="logo de Alura">
+        
+        <section class="sectionDesencriptado">
+        <textarea type="text" cols="70" rows="10" id="textDesencriptado"></textarea>
+               
+        <div class="EyDboton">
+            <button id="btnEcrt"  class="encriptador"  onclick="btnEncriptar();">Encriptar!</button>
+            <button id="btnDrt" class="desencriptador" onclick="btnDesencriptar();">Desencriptar!</button>
+        </div>
+        </section>
+
+        <section class="sectionEncriptado">
+        <textarea cols="70" rows="10" id="textEncriptado"></textarea>
+        <button id="copiar" onclick="copiarTexto();" class="btnCopiar">Copiar</button>    
+        </section>
+    
+    </main>
+   
+    <footer>
+        <div class="copyRight">
+            <p><stl class="stl">Imagenes obtenidas de:</stl> Alura Latam.</p>
+            <p><stl class="stl">&copy Copyright</stl> David Villarraga G6 principiante de programación - <stl class="stl">2024.</stl></p>
+        </div>
+        <div>
+            <ul class="contacto">
+                <li><a href="https://www.facebook.com/davidalbeiro.villarragarramirez/"><img src="imagenes/Facebook.jpg" class="imgLg"  alt="Facebook red social."></a></li>
+                <li><a href="https://x.com/DavidRa260?t=P9xOM8bSGkoLQ9yejSXJnQ&s=03"><img src="imagenes/X.png" class="imgLg"  alt="X red social."></a></li>
+                <li><a href="https://www.instagram.com/david_villarraga.25?igsh=MWVhZWM3eTI4MXU4Mg=="><img src="imagenes/Instagram.png" class="imgLg" alt="Instagram red social."></a></li>
+                <li><a href="https://github.com/DavidVillarraga"><img src="imagenes/Github.png" class="imgLg" alt="GitHup red social."></a></li> 
+                <li><a href="https://www.linkedin.com/in/david-villarraga/"><img src="imagenes/Linkedind.png" class="imgLg" alt="Linkedin red social."></a></li>
+            </ul>
+        </div>
+
+
+       </section>
+    </footer>
+    
+    <script src="Challenge.JS"></script>
+</body>
+</html>
