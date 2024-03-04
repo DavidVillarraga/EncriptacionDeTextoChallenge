@@ -232,7 +232,7 @@ footer{
     h1{
         width: 400px;
         padding: 5px;
-        margin: 10px 25px 10px 30px;
+        margin: 10px 25px 30px 30px;
     }
     main{
         width: 400px;
@@ -250,21 +250,20 @@ footer{
     }
     #textDesencriptado{
         width: 350px;
-        height: 300px;
+        height: 400px;
         margin-left:25px;       
     }
 
     .sectionEncriptado{
         width: 350px;
-        height: 315px;
-        margin-bottom: 20px;                
+        height: 420px;
+        margin: 10px 25px 20px 25px;               
     }
     #textEncriptado{
         width: 250px;
-        height: 250px;
-        margin: 0 50px 5px 50px;
-        padding-block: 5px;
-        background-position: 20px -50px;
+        height: 300px;
+        margin: 0 50px 0 50px;
+        background-position: 20px 0;
     }
 
     .btnCopiar{
@@ -275,7 +274,7 @@ footer{
     .EyDboton{
         width: 400px;
         height: 80px;
-        margin: 0;        
+        margin-left: 0;        
     }
     .encriptador, .desencriptador{
         width: 170px;
@@ -291,7 +290,7 @@ footer{
     }
 }
 
-@media screen and (max-width:800px){
+@media screen and (min-width:480px), screen and(max-width:800px){
     body{
         width: 750px;
         height: 900px;
@@ -338,21 +337,20 @@ footer{
     }
     #textDesencriptado{
         width: 650px;
-        height: 300px;
+        height: 400px;
         margin-left:25px;       
     }
 
     .sectionEncriptado{
         width: 650px;
-        height: 400px;
-        margin-bottom: 20px;                 
+        height: 500px;
+        margin: 10px 25px 20px 25px;                 
     }
     #textEncriptado{
         width: 380px;
-        height: 300px;
-        margin: 0 135px 5px 135px;
-        padding-block: 5px;
-        background-position: 90px -50px;
+        height: 350px;
+        margin: 0 135px 0 135px;
+        background-position: 90px 0;
     }
 
     .btnCopiar{
