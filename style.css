@@ -289,7 +289,7 @@ footer{
 }
 
 
-@media screen and(max-width:800px){
+@media screen and (max-width:800px){
     body{
         width: 750px;
         height: 900px;
