@@ -201,3 +201,185 @@ footer{
 .stl{
     font-weight: bold;
 }
+
+
+@media screen and (max-width:480px){
+    body{
+        width: 450px;
+        height: 900px;
+        background-position: -30px 850px; 
+    } 
+    header{
+        width: 450px;
+        height: 120px;  
+    }
+    .imagenesHeader{
+        width: 450px;
+        height: 120px;
+        position: 0px;
+        margin: 10px 0 0 10px;
+    }
+    .logoAlura{
+        width: 180px;
+        position: relative;
+        margin: 0 0 30px 0;
+    }
+    .logoOracle{
+        width: 220px;
+        position: relative;
+        margin: 0 0 0 35px;
+    }
+    h1{
+        width: 400px;
+        padding: 5px;
+        margin: 10px 25px 10px 30px;
+    }
+    main{
+        width: 400px;
+        margin: 0 25px 10px 35px;
+        padding-bottom: 10px;
+        display: block;
+    }
+    .Logo{
+        width:30px;
+        margin: 10px 0 10px 175px;
+    }
+    .sectionDesencriptado{
+        width: 400px;
+        display: block;
+    }
+    #textDesencriptado{
+        width: 350px;
+        height: 300px;
+        margin-left:25px;       
+    }
+
+    .sectionEncriptado{
+        width: 350px;
+        height: 315px;
+        margin-bottom: 20px;                
+    }
+    #textEncriptado{
+        width: 250px;
+        height: 250px;
+        margin: 0 50px 5px 50px;
+        padding-block: 5px;
+        background-position: 20px -50px;
+    }
+
+    .btnCopiar{
+        width: 190px;
+        height: 40px;
+        opacity: 1;
+    }
+    .EyDboton{
+        width: 400px;
+        height: 80px;
+        margin: 0;        
+    }
+    .encriptador, .desencriptador{
+        width: 170px;
+        padding: 10px;
+        font-size: 20px;
+    }
+    footer{
+        width:110%;
+        height: 120px;
+    }
+    .copyRight p:first-child{
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width:800px){
+    body{
+        width: 750px;
+        height: 900px;
+        background-position: 10px 850px; 
+    } 
+    header{
+        width: 750px;
+        height: 120px;  
+    }
+    .imagenesHeader{
+        width: 750px;
+        height: 120px;
+        position: 0px;
+        margin: 20px 0 0 30px;
+    }
+    .logoAlura{
+        width: 300px;
+        position: relative;
+        margin: 0 0 10px 30px;
+    }
+    .logoOracle{
+        width: 300px;
+        position: relative;
+        margin: 0 0 0 100px;
+    }
+    h1{
+        width: 600px;
+        padding: 5px;
+        margin: 10px 25px 10px 120px;
+    }
+    main{
+        width: 700px;
+        margin: 0 25px 10px 70px;
+        padding-bottom: 10px;
+        display: block;
+    }
+    .Logo{
+        width:30px;
+        margin: 10px 0 10px 350px;
+    }
+    .sectionDesencriptado{
+        width: 650px;
+        display: block;
+    }
+    #textDesencriptado{
+        width: 650px;
+        height: 300px;
+        margin-left:25px;       
+    }
+
+    .sectionEncriptado{
+        width: 650px;
+        height: 400px;
+        margin-bottom: 20px;                 
+    }
+    #textEncriptado{
+        width: 380px;
+        height: 300px;
+        margin: 0 135px 5px 135px;
+        padding-block: 5px;
+        background-position: 90px -50px;
+    }
+
+    .btnCopiar{
+        width: 200px;
+        height: 50px;
+        position: relative;
+        margin: 10px 220px 0 220px;
+        opacity: 1;
+    }
+    .EyDboton{
+        width: 700px;
+        height: 80px;             
+    }
+    .encriptador, .desencriptador{
+        width: 250px;
+        padding: 10px 10px;
+        font-size: 20px;
+        margin: 20px 30px 20px 10px;
+    }
+    footer{
+        width: 850px;
+        height: 100px;
+    }
+    .copyRight p:first-child{
+        margin-bottom: 5px;
+    }
+    .copyRight{
+        margin-bottom: 10px;
+    }   
+}s
