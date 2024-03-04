@@ -253,7 +253,6 @@ footer{
         height: 400px;
         margin-left:25px;       
     }
-
     .sectionEncriptado{
         width: 350px;
         height: 420px;
@@ -265,7 +264,6 @@ footer{
         margin: 0 50px 0 50px;
         background-position: 20px 0;
     }
-
     .btnCopiar{
         width: 190px;
         height: 40px;
@@ -290,7 +288,8 @@ footer{
     }
 }
 
-@media screen and (min-width:480px), screen and(max-width:800px){
+
+@media screen and(max-width:800px){
     body{
         width: 750px;
         height: 900px;
@@ -340,7 +339,6 @@ footer{
         height: 400px;
         margin-left:25px;       
     }
-
     .sectionEncriptado{
         width: 650px;
         height: 500px;
@@ -352,7 +350,6 @@ footer{
         margin: 0 135px 0 135px;
         background-position: 90px 0;
     }
-
     .btnCopiar{
         width: 200px;
         height: 50px;
