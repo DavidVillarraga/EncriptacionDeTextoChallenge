@@ -267,12 +267,11 @@ footer{
     .btnCopiar{
         width: 190px;
         height: 40px;
-        opacity: 1;
     }
     .EyDboton{
         width: 400px;
         height: 80px;
-        margin-left: 0;        
+        margin-left: 70px;        
     }
     .encriptador, .desencriptador{
         width: 170px;
@@ -287,7 +286,6 @@ footer{
         margin-bottom: 5px;
     }
 }
-
 
 @media screen and (max-width:800px){
     body{
@@ -322,7 +320,7 @@ footer{
     }
     main{
         width: 700px;
-        margin: 0 25px 10px 70px;
+        margin: 0 25px 0px 70px;
         padding-bottom: 10px;
         display: block;
     }
@@ -355,7 +353,6 @@ footer{
         height: 50px;
         position: relative;
         margin: 10px 220px 0 220px;
-        opacity: 1;
     }
     .EyDboton{
         width: 700px;
